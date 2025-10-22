@@ -1,0 +1,20 @@
+{
+  "name": "mongodb-fundamentals",
+  "version": "1.0.0",
+  "description": "MongoDB Fundamentals Week 1 Assignment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon insert_books.js",
+  "start": "node insert_books.js"
+  },
+  "keywords": [
+    "mongodb",
+    "database",
+    "nosql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.3.0"
+  }
+} 
