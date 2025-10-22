@@ -28,13 +28,7 @@ npm install
 ### Step 2: Configure Environment Variables
 Create a `.env` file in the project root directory with your MongoDB connection details:
 
-```env
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
-DB_NAME=plp_bookstore
-COLLECTION_NAME=books
-```
 
-**Note:** Replace the connection string above with your own MongoDB Atlas credentials.
 
 ### Step 3: Populate the Database
 Run the script to insert sample book data:
